@@ -43,7 +43,7 @@ btnEl.addEventListener("click", function(){
         clearFields();
 
     } else{
-        alert("Before publishing you have to fill al the endorsement:\nmessage,from and to fields.");
+        alert("Hey! ¿olvidaste escribir de quién o para quién es el mensaje?\nDedícaselo a alguien ps");
     }
 })
 
