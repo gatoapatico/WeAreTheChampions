@@ -17,7 +17,7 @@ const endorsementsEl = document.getElementById("endorsements");
 
 onValue(endorsementsInDB, function(snapshot){
     if(snapshot.exists()){
-        let endorsements = Object.entries(snapshot.val());
+        let endorsements = Object.entries(snapshot.val()).reverse();
 
         clearEndorsements();
 
