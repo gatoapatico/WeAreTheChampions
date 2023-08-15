@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>We are the Champions</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
     <div id="container">
@@ -12,29 +16,19 @@
             <img src="assets/img/freddie.png" alt="freddie image">
             <h1>We are the Champions</h1>
             <textarea id="textfield-el" cols="1" rows="7" placeholder="Write your endorsement here"></textarea>
-            <button>Publish</button>
+            <div id="inputs">
+                <input class="input" id="inputFrom-el" type="text" placeholder="From">
+                <input class="input" id="inputTo-el" type="text" placeholder="To">    
+            </div>
+            <button id="btn-el">Publish</button>
         </div>
         <div id="secondSec">
             <h2>- Endorsements -</h2>
             <div id="endorsements">
-                <div class="endorsement">
-                    Hi Bob! Your React Router course is so good. The students are going to LOVE IT. I'm so excited for te launch :) 🔥 Per
-                </div>
-                <div class="endorsement">
-                    Abdellah! That transcription feature you completed for Scrimba 3.0 is amazing. I know you've been working hard on it for several months now. 👏👏👏 Really good work 🙌 From Sindre
-                </div>
-                <div class="endorsement">
-                    Leanne! Thank you so much for helping me with the March accounting, Saved so much time because of you! 💜 Frode
-                </div>
-                <div class="endorsement">
-                    Gracias!
-                </div>
-                <div class="endorsement">
-                    Leanne! Thank you so much for helping me with the March accounting, Saved so much time because of you! 💜 Frode
-                </div>
+                
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="script.js" type="module"></script>
 </body>
 </html>
